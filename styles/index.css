@@ -1,0 +1,58 @@
+/* src/styles/tailwind.css */
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;700&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Set the background color of the entire page to dark blue */
+body {
+  background-color: #1a365d;
+  font-family: 'Sofia Sans', sans-serif;
+  color: white; /* Set text color to white */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+  height: 100vh; /* Make the body fill the viewport height */
+}
+
+/* Header Styles */
+.header {
+  background-color: #2d3748; /* Differentiate header background */
+  padding: 1rem; /* Add padding for spacing */
+}
+
+/* Blog Post Styles */
+.blog-post {
+  background-color: #2d3748; /* Differentiate blog post background */
+  padding: 1rem; /* Add padding for spacing */
+  margin: 1rem 0; /* Add margin between blog posts */
+}
+
+/* Gray Colors */
+.bg-gray-100 {
+  background-color: #f7fafc;
+}
+
+.bg-gray-800 {
+  background-color: #2d3748;
+}
+
+/* Orange Accent Color */
+.bg-orange {
+  background-color: #ff6d00;
+}
+
+/* Text Colors */
+.text-primary {
+  color: #1a365d;
+}
+
+.text-gray-800 {
+  color: #2d3748;
+}
+
+.text-orange {
+  color: #ff6d00;
+}
