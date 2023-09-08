@@ -5,9 +5,9 @@ import BlogPost from '../components/BlogPost';
 const Home: React.FC = () => {
   const blogPosts = [
     {
-      title: 'My First Blog Post',
-      content: 'This is my first blog post. Stay tuned for more!',
-    },
+      title: 'It\'s finally set up!',
+      content: 'I did this as a quick project to test Vite, and it works beautifully!',
+    }
     // Add more blog posts as needed
   ];
 
